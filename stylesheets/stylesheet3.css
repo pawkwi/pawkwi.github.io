@@ -19,25 +19,29 @@ body {
   text-align: center;
   font-size: 1em; }
 
+.line5 {
+  font-size: 0.5em; }
+
 .picture {
   display: flex;
   background-color: none;
   justify-content: center; }
 
+.menu {
+  display: block;
+  text-align: center; }
+
 .menu ul {
-  float: left;
-  width: 100%;
+  margin-left: 28%;
   padding: 10;
   margin: 10 auto;
   list-style: none;
-  flex-direction: column; }
+  display: flex; }
 
 .menu li a {
   display: block;
-  float: left;
   text-align: center;
   font-size: 1.5em;
-  width: 130px;
   text-decoration: none;
   color: black;
   background-color: #333333;
@@ -54,6 +58,6 @@ body {
 .menu li a:hover {
   color: black;
   background: #ffe996;
-  border: 1px solid black; }
+  border: 0.1em solid black; }
 
 /*# sourceMappingURL=stylesheet3.css.map */
